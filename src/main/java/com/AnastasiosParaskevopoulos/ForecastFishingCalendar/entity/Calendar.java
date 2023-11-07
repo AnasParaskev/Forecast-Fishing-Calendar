@@ -1,9 +1,11 @@
 package com.AnastasiosParaskevopoulos.ForecastFishingCalendar.entity;
 
 import jakarta.persistence.*;
+import lombok.Data;
 
 import java.sql.Date;
 
+@Data
 @Entity
 public class Calendar {
 

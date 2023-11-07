@@ -10,10 +10,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RequiredArgsConstructor
 public class ConditionsController {
 
-    private final ConditionsService conditionsService;
+    private ConditionsService conditionsService;
 
-    @GetMapping(value="/conditions")
-    public Conditions getConditions() {
-        return conditionsService.getDailyConditions();
-    }
+
+//    @GetMapping(value="/conditions")
+//    public Conditions getConditions() {
+//
+//        return conditionsService.getDailyConditions();
+//    }
 }
