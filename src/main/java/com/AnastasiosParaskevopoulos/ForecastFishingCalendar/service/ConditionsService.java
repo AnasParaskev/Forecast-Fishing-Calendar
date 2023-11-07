@@ -9,10 +9,11 @@ import org.springframework.stereotype.Service;
 @Service
 public class ConditionsService {
 
-    private final ConditionsRepository conditionsRepository;
+    private ConditionsRepository conditionsRepository;
 
-    public Conditions getDailyConditions() {
-        return null;
-    }
+//    public Conditions getDailyConditions() {
+//
+//        return conditionsRepository.findAll();
+//    }
 
 }
